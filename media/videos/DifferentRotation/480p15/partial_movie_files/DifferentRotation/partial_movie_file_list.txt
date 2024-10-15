@@ -1,0 +1,3 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/Rafin/Desktop/Python Exercise/media/videos/DifferentRotation/480p15/partial_movie_files/DifferentRotation/1185818338_3727198893_2792856867.mp4'
+file 'file:C:/Users/Rafin/Desktop/Python Exercise/media/videos/DifferentRotation/480p15/partial_movie_files/DifferentRotation/624642324_1704852926_3743018751.mp4'
