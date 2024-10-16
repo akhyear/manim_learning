@@ -1,0 +1,4 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/Rafin/Desktop/Python Exercise/media/videos/12Animate/480p15/partial_movie_files/Animate/1185818338_835611147_1600157425.mp4'
+file 'file:C:/Users/Rafin/Desktop/Python Exercise/media/videos/12Animate/480p15/partial_movie_files/Animate/624642324_3842160855_1600157425.mp4'
+file 'file:C:/Users/Rafin/Desktop/Python Exercise/media/videos/12Animate/480p15/partial_movie_files/Animate/624642324_3890345977_2003141450.mp4'
