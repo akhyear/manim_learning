@@ -84,3 +84,62 @@ Here are additional aspects of controlling animations in **Manim**, beyond just 
 
 These parameters allow fine-tuned control over how animations behave, from pacing and delays to specific reference points for transformations, giving you a lot of flexibility in designing your animations.
 
+Here’s a list of common **Manim animation functions** that can be combined with `.animate`, along with simple definitions for each:
+
+### **List of Manim Animation Functions:**
+
+1. **`Transform(mobject, target_mobject)`**:  
+   * Smoothly morphs `mobject` into `target_mobject`, transitioning their shape, size, and color.  
+2. **`FadeIn(mobject)`**:  
+   * Gradually makes the `mobject` appear on the screen by fading it in.  
+3. **`FadeOut(mobject)`**:  
+   * Gradually makes the `mobject` disappear by fading it out.  
+4. **`Rotate(mobject, angle)`**:  
+   * Rotates the `mobject` by a specified `angle` (in radians).  
+5. **`MoveToTarget(mobject)`**:  
+   * Moves `mobject` smoothly to a predefined position set using `mobject.generate_target()`.  
+6. **`ApplyMethod(mobject.method, *args)`**:  
+   * Applies a method (such as `move_to()`, `rotate()`, `scale()`) to `mobject` with given arguments.  
+7. **`ReplacementTransform(mobject, target_mobject)`**:  
+   * Replaces `mobject` with `target_mobject` by smoothly transitioning the visual properties of the two objects.  
+8. **`GrowFromCenter(mobject)`**:  
+   * Causes the `mobject` to grow in size, starting from its center point.  
+9. **`ShrinkToCenter(mobject)`**:  
+   * Shrinks the `mobject` down to its center until it disappears.  
+10. **`Write(mobject)`**:  
+    * Animates the drawing or writing of a `Text` or `Tex` object letter by letter, as if someone is writing it.  
+11. **`Unwrite(mobject)`**:  
+    * Animates the erasing or "unwriting" of a `Text` or `Tex` object, letter by letter.  
+12. **`Indicate(mobject)`**:  
+    * Briefly highlights a `mobject` by scaling it up and changing its color, usually to draw attention to it.  
+13. **`Circumscribe(mobject)`**:  
+    * Draws a glowing border or outline around the `mobject` to highlight it.  
+14. **`Flash(mobject)`**:  
+    * Creates a brief flash of light around a `mobject`, commonly used to emphasize or highlight.  
+15. **`ShowCreation(mobject)`**:  
+    * Gradually "draws" or "traces" the outline of a `mobject`, such as a shape or path.  
+16. **`Uncreate(mobject)`**:  
+    * Gradually erases or "untraces" the outline of a `mobject`.  
+17. **`GrowFromEdge(mobject, edge)`**:  
+    * Makes the `mobject` grow from one of its edges (e.g., `LEFT`, `RIGHT`, etc.).  
+18. **`SpinInFromNothing(mobject)`**:  
+    * Causes the `mobject` to appear by spinning into view from nothing.  
+19. **`FlashAround(mobject)`**:  
+    * Creates a flashing outline around a `mobject` to draw attention.  
+20. **`Wiggle(mobject)`**:  
+    * Wiggles the `mobject` back and forth to emphasize it.  
+21. **`ApplyWave(mobject)`**:  
+    * Applies a wave-like effect to the `mobject`, making it ripple smoothly.  
+22. **`Blink()`**:  
+    * Causes a `Dot` or `Point` to blink (commonly used with animated characters in more complex scenes).  
+23. **`FadeTransform(mobject, target_mobject)`**:  
+    * Fades out the `mobject` and simultaneously fades in the `target_mobject`.  
+24. **`Create(mobject)`**:  
+    * Animates the creation of a `mobject`, often by drawing it from start to finish (similar to `ShowCreation` but can be applied to any object).  
+25. **`ApplyPointwiseFunction(function, mobject)`**:  
+    * Applies a custom pointwise function to the points of the `mobject`, transforming its shape in creative ways.  
+26. **`ClockwiseTransform(mobject)`**:  
+    * Rotates the `mobject` clockwise by 90 degrees.  
+27. **`CounterclockwiseTransform(mobject)`**:  
+    * Rotates the `mobject` counterclockwise by 90 degrees.
+

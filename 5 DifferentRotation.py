@@ -9,7 +9,7 @@
 #         )
 #         self.wait()
 
-# from manim import *
+from manim import *
 
 class DifferentRotation(Scene):
     def construct(self):
