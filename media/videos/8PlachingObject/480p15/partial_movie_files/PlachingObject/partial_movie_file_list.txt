@@ -1,0 +1,2 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/Rafin/Desktop/Python Exercise/media/videos/8PlachingObject/480p15/partial_movie_files/PlachingObject/1185818338_1563271232_652358985.mp4'

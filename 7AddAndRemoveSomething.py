@@ -7,3 +7,6 @@ class AddAndRemoveSomething(Scene):
         self.wait(2)
         self.remove(a)
         self.wait(1)
+
+
+# manim -pql 7AddAndRemoveSomething.py AddAndRemoveSomething
