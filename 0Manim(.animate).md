@@ -142,4 +142,3 @@ Here’s a list of common **Manim animation functions** that can be combined wit
     * Rotates the `mobject` clockwise by 90 degrees.  
 27. **`CounterclockwiseTransform(mobject)`**:  
     * Rotates the `mobject` counterclockwise by 90 degrees.
-
