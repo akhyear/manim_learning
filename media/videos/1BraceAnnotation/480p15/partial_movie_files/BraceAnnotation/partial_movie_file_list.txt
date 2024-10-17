@@ -1,0 +1,5 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/Rafin/Desktop/Python Exercise/media/videos/1BraceAnnotation/480p15/partial_movie_files/BraceAnnotation/1185818338_1660559088_2550092125.mp4'
+file 'file:C:/Users/Rafin/Desktop/Python Exercise/media/videos/1BraceAnnotation/480p15/partial_movie_files/BraceAnnotation/624642324_1704852926_939688537.mp4'
+file 'file:C:/Users/Rafin/Desktop/Python Exercise/media/videos/1BraceAnnotation/480p15/partial_movie_files/BraceAnnotation/624642324_789468184_4227516557.mp4'
+file 'file:C:/Users/Rafin/Desktop/Python Exercise/media/videos/1BraceAnnotation/480p15/partial_movie_files/BraceAnnotation/624642324_1704852926_1071484169.mp4'
