@@ -28,7 +28,9 @@ class BraceAnnotation(Scene):
         
         b2text = b2.get_tex("x-x_1")
         # its tex not text
+
         self.add(line, dot, dot2, b1, b2, b1text, b2text)
+        
         self.play(FadeIn(line, dot, dot2, b1, b2, b1text, b2text),rum_time= 5)
         self.wait()
         self.play(FadeOut(line, dot, dot2, b1, b2, b1text, b2text),rum_time= 5)
