@@ -1,0 +1,5 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/Rafin/Desktop/Python Exercise/media/videos/5MovingAround/480p15/partial_movie_files/MovingAround/1185818338_3026146586_1600157425.mp4'
+file 'file:C:/Users/Rafin/Desktop/Python Exercise/media/videos/5MovingAround/480p15/partial_movie_files/MovingAround/624642324_3336371178_1600157425.mp4'
+file 'file:C:/Users/Rafin/Desktop/Python Exercise/media/videos/5MovingAround/480p15/partial_movie_files/MovingAround/624642324_2722519665_1600157425.mp4'
+file 'file:C:/Users/Rafin/Desktop/Python Exercise/media/videos/5MovingAround/480p15/partial_movie_files/MovingAround/624642324_2354374403_3157718765.mp4'
