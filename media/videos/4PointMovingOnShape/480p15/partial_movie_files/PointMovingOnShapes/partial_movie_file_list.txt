@@ -1,0 +1,5 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/Rafin/Desktop/Python Exercise/media/videos/4PointMovingOnShape/480p15/partial_movie_files/PointMovingOnShapes/1185818338_22980905_4159515603.mp4'
+file 'file:C:/Users/Rafin/Desktop/Python Exercise/media/videos/4PointMovingOnShape/480p15/partial_movie_files/PointMovingOnShapes/624642324_4236692691_496602590.mp4'
+file 'file:C:/Users/Rafin/Desktop/Python Exercise/media/videos/4PointMovingOnShape/480p15/partial_movie_files/PointMovingOnShapes/624642324_1882894709_2125558009.mp4'
+file 'file:C:/Users/Rafin/Desktop/Python Exercise/media/videos/4PointMovingOnShape/480p15/partial_movie_files/PointMovingOnShapes/624642324_1704852926_718781689.mp4'
