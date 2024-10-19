@@ -1,6 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:C:/Users/Rafin/Desktop/Python Exercise/media/videos/8MovingFrameBox/480p15/partial_movie_files/MovingFrameBox/1185818338_3354298250_223132457.mp4'
-file 'file:C:/Users/Rafin/Desktop/Python Exercise/media/videos/8MovingFrameBox/480p15/partial_movie_files/MovingFrameBox/624642324_271042858_1105709000.mp4'
-file 'file:C:/Users/Rafin/Desktop/Python Exercise/media/videos/8MovingFrameBox/480p15/partial_movie_files/MovingFrameBox/624642324_1704852926_4281978502.mp4'
-file 'file:C:/Users/Rafin/Desktop/Python Exercise/media/videos/8MovingFrameBox/480p15/partial_movie_files/MovingFrameBox/624642324_1303489_3133818437.mp4'
-file 'file:C:/Users/Rafin/Desktop/Python Exercise/media/videos/8MovingFrameBox/480p15/partial_movie_files/MovingFrameBox/624642324_1704852926_3978145683.mp4'

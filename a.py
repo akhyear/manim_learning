@@ -1,23 +1,27 @@
-from manim import*
+from manim import *
 
-class a(Scene):
+from manim import *
+
+from manim import *
+
+class RotateLine(Scene):
     def construct(self):
-        dot1= Dot(color=RED)
-        dot2 = Dot(color=GREEN)
-        dg = Group(dot1,dot2).arrange(RIGHT, buff=2)
-        l1 = Line(dot1.get_center(),dot2.get_center()).set_color(YELLOW)
+        # Create the static reference line (for comparison), from the origin to the right
+        line = Line(ORIGIN, RIGHT).set_color(WHITE)
+        
+        # Create the moving line, also from the origin to the right
+        line_moving = Line(ORIGIN, RIGHT).set_color(YELLOW)
+        
+        # Add both lines to the scene
+        self.add(line, line_moving)
+        
+        # Rotate line_moving from 0 to 90 degrees (PI/2 radians)
+        self.play(line_moving.animate.rotate_about_origin(PI / 2))
+        self.wait(1)  # Pause for 1 second
+        
+        # Rotate line_moving back to the original position (0 degrees)
+        self.play(line_moving.animate.rotate_about_origin(-PI / 2))
+        self.wait(1)  # Pause for 1 second to show the final state
 
-
-        a = ValueTracker(0)
-        b = ValueTracker(0)
-
-        dot1.add_updater(lambda z: z.set_y(a.get_value()))
-        dot2.add_updater(lambda z: z.set_x(b.get_value()))
-        # l1.add_updater(lambda z: z.become(dot1,dot2))
-        l1.add_updater(lambda z: z.become(Line(dot1,dot2)))
-
-        self.add(l1, dot1,dot2)
-        self.play(a.animate.set_value(4))
-        self.play(b.animate.set_value(5))
 
 # manim -pql a.py a
