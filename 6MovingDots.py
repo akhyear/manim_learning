@@ -34,6 +34,9 @@ class movingdot(Scene):
         dot2.add_updater(lambda z: z.set_x(b.get_value()))
         l1.add_updater(lambda z: z.become(Line(dot1,dot2)))
 
+        #This is a lambda function, which is a way to define a small, anonymous function in Python. In this case, z is a parameter that represents the dot1 dot itself.
+        # The lambda function is a short way of saying, "for whatever z is, do the following."
+
         self.add(dot1,dot2,l1)
 
         self.play(a.animate.set_value(4))
