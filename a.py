@@ -1,27 +1,18 @@
 from manim import *
 
-from manim import *
-
-from manim import *
-
-class RotateLine(Scene):
+class PointWithTrace(Scene):
     def construct(self):
-        # Create the static reference line (for comparison), from the origin to the right
-        line = Line(ORIGIN, RIGHT).set_color(WHITE)
-        
-        # Create the moving line, also from the origin to the right
-        line_moving = Line(ORIGIN, RIGHT).set_color(YELLOW)
-        
-        # Add both lines to the scene
-        self.add(line, line_moving)
-        
-        # Rotate line_moving from 0 to 90 degrees (PI/2 radians)
-        self.play(line_moving.animate.rotate_about_origin(PI / 2))
-        self.wait(1)  # Pause for 1 second
-        
-        # Rotate line_moving back to the original position (0 degrees)
-        self.play(line_moving.animate.rotate_about_origin(-PI / 2))
-        self.wait(1)  # Pause for 1 second to show the final state
-
-
-# manim -pql a.py a
+        path = VMobject()
+        dot = Dot()
+        path.set_points_as_corners([dot.get_center(), dot.get_center()])
+        def update_path(path):
+            previous_path = path.copy()
+            previous_path.add_points_as_corners([dot.get_center()])
+            path.become(previous_path)
+        path.add_updater(update_path)
+        self.add(path, dot)
+        # self.play(Rotating(dot, radians=PI, about_point=RIGHT, run_time=2))
+        # self.wait()
+        self.play(dot.animate.shift(UP))
+        self.play(dot.animate.shift(LEFT))
+        self.wait()
