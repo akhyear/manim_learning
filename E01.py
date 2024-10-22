@@ -37,7 +37,7 @@ class SquareToCircle(Scene):
 # এখানে Transform ব্যাবহার করা হয়নি কারন এটা ব্যবহার করলে blue_circle fade_out 
 # করার সময় একটা ধাপ দেয় মানে green_square কেও কি কি বা করে।  তাই ReplacementTransform ব্যাবহার করতে হবে
 # যাতে একটা আরেকটাকে রিপ্লেস করে
-        self.play(Indicate(cic).set_color(RED))
+        # self.play(Indicate(cic).set_color(RED))
         # এটা দিয়ে একটু যুম করে
         self.play(FadeOut(cic))
         self.wait()
