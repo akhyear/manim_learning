@@ -1,0 +1,6 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/Rafin/Desktop/Manim_learning/media/videos/E03/480p15/partial_movie_files/Animationsyntax/1185818338_1954860816_1378421291.mp4'
+file 'file:C:/Users/Rafin/Desktop/Manim_learning/media/videos/E03/480p15/partial_movie_files/Animationsyntax/624642324_2234401765_2386654144.mp4'
+file 'file:C:/Users/Rafin/Desktop/Manim_learning/media/videos/E03/480p15/partial_movie_files/Animationsyntax/624642324_4284293804_1412841409.mp4'
+file 'file:C:/Users/Rafin/Desktop/Manim_learning/media/videos/E03/480p15/partial_movie_files/Animationsyntax/624642324_1084250524_3656042911.mp4'
+file 'file:C:/Users/Rafin/Desktop/Manim_learning/media/videos/E03/480p15/partial_movie_files/Animationsyntax/624642324_1704852926_1623538237.mp4'
